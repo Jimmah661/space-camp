@@ -1,0 +1,12 @@
+.footerContainer {
+  padding-top: 40px;
+}
+
+.socialIconsSingle {
+  float: left;
+  margin-left: 10px;
+}
+
+#socialIconsList {
+  list-style: none;
+}
