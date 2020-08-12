@@ -1,13 +1,14 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
+import './PageNavBar.css'
 
 const PageNavBar = () => {
   return (
-    <Navbar className="justify-content-between" bg="light" expand="lg">
+    <Navbar id="navbar" bg="light" expand="lg">
       <Navbar.Brand>Space Camp</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      {/* <Nav.Collapse> */}
-        <Nav>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="justify-content-end"/>
+      <Navbar.Collapse className="justify-content-end">
+        <Nav style={{float: 'right'}}>
           <Nav.Link href='#'>Shop</Nav.Link>
           <Nav.Link href='#'>Science</Nav.Link>
           <Nav.Link href='#'>Projects</Nav.Link>
@@ -17,7 +18,7 @@ const PageNavBar = () => {
             <NavDropdown.Item>Stockists</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-      {/* </Nav.Collapse> */}
+      </Navbar.Collapse>
     </Navbar>
   )
 }
