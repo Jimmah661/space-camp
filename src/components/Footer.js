@@ -8,19 +8,23 @@ const Footer = () => {
       <Row>
         <Col>
           <ul id='socialIconsList'>
-            <li className='socialIconsSingle'>Facebook</li>
-            <li className='socialIconsSingle'>Instagram</li>
-            <li className='socialIconsSingle'>Twitter</li>
+            <li className='socialIconsSingle'><i className="fab fa-facebook fa-2x"></i></li>
+            <li className='socialIconsSingle'><i className="fab fa-instagram fa-2x"></i></li>
+            <li className='socialIconsSingle'><i className="fab fa-twitter fa-2x"></i></li>
           </ul>
         </Col>
         <Col>
           <ul style={styles.list}>
-            <li>Shop</li>
-            <li>Science</li>
-            <li>Projects</li>
-            <li>FAQs</li>
-            <li>Contact</li>
-            <li>Stockists</li>
+            {
+              ['Shop', 'Science','Projects', 'FAQs', 'Contact', 'Stockists'].map((link) => {
+                return (
+                  <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <a href="#" className="footerLink">{link}</a>
+                  </li>
+                )
+              })
+            }
           </ul>
         </Col>
         <Col>

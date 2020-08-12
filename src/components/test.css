@@ -7,6 +7,11 @@
   margin-left: 10px;
 }
 
+.footerLink, .footerLink:hover{
+  text-decoration: none;
+  color: black;
+}
+
 #socialIconsList {
   list-style: none;
 }

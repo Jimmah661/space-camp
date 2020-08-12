@@ -1,0 +1,21 @@
+#bannerContainer {
+  position: static;
+  margin-bottom: 5;
+  display: block;
+}
+
+#bannerImage {
+  background-image: url("https://via.placeholder.com/728x90.png?text=Space+Camp,+Good+skin+by+interesting+organisms");
+  min-height: 200px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -5;
+}
+
+.spacer {
+  min-height: 200px;
+}
