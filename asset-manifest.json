@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/space-camp/static/css/main.6b62a436.chunk.css",
-    "main.js": "/space-camp/static/js/main.44d4b6ce.chunk.js",
-    "main.js.map": "/space-camp/static/js/main.44d4b6ce.chunk.js.map",
+    "main.css": "/space-camp/static/css/main.d797cf52.chunk.css",
+    "main.js": "/space-camp/static/js/main.1bba0ea9.chunk.js",
+    "main.js.map": "/space-camp/static/js/main.1bba0ea9.chunk.js.map",
     "runtime-main.js": "/space-camp/static/js/runtime-main.3116a03b.js",
     "runtime-main.js.map": "/space-camp/static/js/runtime-main.3116a03b.js.map",
-    "static/js/2.0107752e.chunk.js": "/space-camp/static/js/2.0107752e.chunk.js",
-    "static/js/2.0107752e.chunk.js.map": "/space-camp/static/js/2.0107752e.chunk.js.map",
+    "static/js/2.3eae0c87.chunk.js": "/space-camp/static/js/2.3eae0c87.chunk.js",
+    "static/js/2.3eae0c87.chunk.js.map": "/space-camp/static/js/2.3eae0c87.chunk.js.map",
     "index.html": "/space-camp/index.html",
-    "precache-manifest.e55667b754b322ac890637c86a88128b.js": "/space-camp/precache-manifest.e55667b754b322ac890637c86a88128b.js",
+    "precache-manifest.b3e3eacdf43daad7d7a31ac68ac76e2c.js": "/space-camp/precache-manifest.b3e3eacdf43daad7d7a31ac68ac76e2c.js",
     "service-worker.js": "/space-camp/service-worker.js",
-    "static/css/main.6b62a436.chunk.css.map": "/space-camp/static/css/main.6b62a436.chunk.css.map",
-    "static/js/2.0107752e.chunk.js.LICENSE.txt": "/space-camp/static/js/2.0107752e.chunk.js.LICENSE.txt"
+    "static/css/main.d797cf52.chunk.css.map": "/space-camp/static/css/main.d797cf52.chunk.css.map",
+    "static/js/2.3eae0c87.chunk.js.LICENSE.txt": "/space-camp/static/js/2.3eae0c87.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3116a03b.js",
-    "static/js/2.0107752e.chunk.js",
-    "static/css/main.6b62a436.chunk.css",
-    "static/js/main.44d4b6ce.chunk.js"
+    "static/js/2.3eae0c87.chunk.js",
+    "static/css/main.d797cf52.chunk.css",
+    "static/js/main.1bba0ea9.chunk.js"
   ]
 }
